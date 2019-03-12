@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    align-items: baseline;
+    margin: 20px 0px 30px ;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.top-image {
+    margin-bottom: 20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +135,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +206,53 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About page*/
+.top-about {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 0 20px 20px;
+}
+
+.information {
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.info-piece {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.info-piece img {
+    width: 100%;
+}
+
+.info-piece h2 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-piece p {
+    
+}
+
+.info-piece button {
+    background: white;
+    color: black;
+    padding: 8px 18px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.about-bottom {
+    padding: 0 30px 20px;
+    margin-bottom: 10px;
 }
